@@ -23,7 +23,7 @@ def determine_winner(user_choice, computer_choice):
         print("Tie")
     elif ((user_choice == "r" and computer_choice == "s") or
           (user_choice == "s" and computer_choice == "p") or
-          (user_choice == "p" and computer_chgoice == "r")):
+          (user_choice == "p" and computer_choice == "r")):
         print("You win")
     else:
         print("You lose")
